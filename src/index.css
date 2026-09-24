@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: #F7F6F2;
+    --surface: #FFFFFF;
+    --surface-muted: #F0EEEA;
+    --surface-stone: #E8E6E0;
+    --text: #181818;
+    --text-soft: #242424;
+    --muted: #77746D;
+    --border: #E2E0DA;
+    --border-dark: #D0CDC5;
+    --olive: #626653;
+    --leather: #4A382A;
+    --accent: #B83A2A;
+
+    --font-heading: 'Barlow Condensed', 'Bebas Neue', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-display: 'Bebas Neue', 'Barlow Condensed', sans-serif;
+    --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-condensed {
+  font-family: var(--font-heading);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-sans {
+  font-family: var(--font-body);
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F6F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #D9D7D0;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #77746D;
+}
+
+/* Smooth transitions */
+html {
+  scroll-behavior: smooth;
+  background-color: #F7F6F2;
+  color: #181818;
+}

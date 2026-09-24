@@ -1,0 +1,6 @@
+{
+  "name": "RANVIK — Men's Leather Military Boots",
+  "description": "Engineered for durability, confidence and everyday movement. Premium leather military boots with military-grade attitude and luxury craftsmanship.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
